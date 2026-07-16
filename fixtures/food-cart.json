@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "itemId": "item_001",
+      "name": "Paneer Butter Masala",
+      "quantity": 1,
+      "price": 289,
+      "restaurantId": "rest_001"
+    }
+  ],
+  "total": 289,
+  "fees": 40,
+  "deliveryFee": 30,
+  "taxes": 10,
+  "availablePaymentMethods": ["COD", "UPI", "CARD"],
+  "couponApplied": false,
+  "couponDiscount": 0
+}

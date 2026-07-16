@@ -1,0 +1,26 @@
+{
+  "name": "Craving to Plate",
+  "short_name": "CravingToPlate",
+  "description": "Paste a craving — get three real ways to satisfy it, priced and timed.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8F7F5",
+  "theme_color": "#F97316",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "categories": ["food", "utilities"]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "addr_home_001",
+    "addressLine": "12, MG Road, Bengaluru",
+    "city": "Bengaluru",
+    "tag": "Home"
+  },
+  {
+    "id": "addr_work_002",
+    "addressLine": "Walmart Labs, Bagmane Tech Park, Bengaluru",
+    "city": "Bengaluru",
+    "tag": "Work"
+  }
+]

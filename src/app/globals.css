@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Design tokens (DESIGN_RULES.md) ───────────────────────────────────────── */
+:root {
+  --leg-order:   #F97316;
+  --leg-cook:    #2563EB;
+  --leg-dineout: #F43F5E;
+
+  --surface:        #F8F7F5;
+  --card:           #FFFFFF;
+  --text-primary:   #1F2937;
+  --text-secondary: #6B7280;
+
+  --veg:    #008000;
+  --nonveg: #963A2F;
+
+  --radius-card:   16px;
+  --radius-btn:    12px;
+  --radius-sheet:  24px;
+}
+
+/* ─── Base ───────────────────────────────────────────────────────────────────── */
+html, body {
+  background-color: var(--surface);
+  color: var(--text-primary);
+  font-family: "Sora", "Poppins", system-ui, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+}
+
+/* ─── Skeleton shimmer ───────────────────────────────────────────────────────── */
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #ede8e4 25%, #f5f2ee 50%, #ede8e4 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s ease-in-out infinite;
+  border-radius: 8px;
+}
+
+/* ─── Veg / non-veg markers (FSSAI Labelling Regulations 2020) ──────────────── */
+.veg-marker {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  border: 1.5px solid var(--veg);
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+.veg-marker::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: var(--veg);
+  border-radius: 50%;
+}
+.nonveg-marker {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  border: 1.5px solid var(--nonveg);
+  border-radius: 2px;
+  flex-shrink: 0;
+  position: relative;
+}
+.nonveg-marker::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 7px solid var(--nonveg);
+}
+
+/* ─── Utility ────────────────────────────────────────────────────────────────── */
+.price {
+  font-weight: 700;
+}
+.price-secondary {
+  font-weight: 400;
+  color: var(--text-secondary);
+  text-decoration: line-through;
+}
+
+/* Bottom sheet drag handle */
+.drag-handle {
+  width: 36px;
+  height: 4px;
+  background: #D1D5DB;
+  border-radius: 2px;
+  margin: 0 auto 16px;
+}
+
+/* Smooth reprice animation */
+.reprice-transition {
+  transition: all 150ms ease-out;
+}

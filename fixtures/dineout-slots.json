@@ -1,0 +1,56 @@
+[
+  {
+    "dateStr": "2026-07-04",
+    "slotId": 101,
+    "reservationTime": 1751630400,
+    "displayTime": "7:00 PM",
+    "slotGroupName": "Dinner",
+    "deals": [
+      {
+        "title": "Free Table Reservation",
+        "bookingPrice": 0,
+        "displayFee": "Free",
+        "discountPercentage": 0,
+        "isFree": true,
+        "slotId": 101,
+        "itemId": "dr_001-ticket_001"
+      }
+    ]
+  },
+  {
+    "dateStr": "2026-07-04",
+    "slotId": 102,
+    "reservationTime": 1751634000,
+    "displayTime": "8:00 PM",
+    "slotGroupName": "Dinner",
+    "deals": [
+      {
+        "title": "Free Table Reservation",
+        "bookingPrice": 0,
+        "displayFee": "Free",
+        "discountPercentage": 0,
+        "isFree": true,
+        "slotId": 102,
+        "itemId": "dr_001-ticket_001"
+      }
+    ]
+  },
+  {
+    "dateStr": "2026-07-05",
+    "slotId": 201,
+    "reservationTime": 1751716800,
+    "displayTime": "1:00 PM",
+    "slotGroupName": "Lunch",
+    "deals": [
+      {
+        "title": "Free Table Reservation",
+        "bookingPrice": 0,
+        "displayFee": "Free",
+        "discountPercentage": 0,
+        "isFree": true,
+        "slotId": 201,
+        "itemId": "dr_001-ticket_001"
+      }
+    ]
+  }
+]

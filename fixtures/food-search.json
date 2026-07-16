@@ -1,0 +1,50 @@
+[
+  {
+    "itemId": "item_001",
+    "name": "Paneer Butter Masala",
+    "price": 289,
+    "isVeg": true,
+    "rating": 4.2,
+    "ratingCount": 1840,
+    "restaurantId": "rest_001",
+    "restaurantName": "Punjab Grill Express",
+    "deliveryEtaMin": 30,
+    "distanceKm": 1.2,
+    "hasVariants": false,
+    "hasAddons": false,
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/paneer-butter-masala.jpg"
+  },
+  {
+    "itemId": "item_002",
+    "name": "Paneer Butter Masala",
+    "price": 249,
+    "isVeg": true,
+    "rating": 4.0,
+    "ratingCount": 920,
+    "restaurantId": "rest_002",
+    "restaurantName": "Home Kitchen",
+    "deliveryEtaMin": 40,
+    "distanceKm": 2.1,
+    "hasVariants": true,
+    "variantsV2": [
+      { "id": "v_half", "name": "Half Plate", "price": 189 },
+      { "id": "v_full", "name": "Full Plate", "price": 249 }
+    ],
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/paneer-masala-2.jpg"
+  },
+  {
+    "itemId": "item_003",
+    "name": "Paneer Makhani",
+    "price": 320,
+    "isVeg": true,
+    "rating": 4.5,
+    "ratingCount": 3200,
+    "restaurantId": "rest_003",
+    "restaurantName": "Spice Symphony",
+    "deliveryEtaMin": 25,
+    "distanceKm": 0.8,
+    "hasVariants": false,
+    "hasAddons": true,
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/paneer-makhani.jpg"
+  }
+]

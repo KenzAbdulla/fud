@@ -1,0 +1,46 @@
+[
+  {
+    "restaurantId": "dr_001",
+    "name": "Punjabi Tadka",
+    "costForTwo": 800,
+    "rating": 4.3,
+    "ratingCount": 2100,
+    "distanceKm": 1.1,
+    "cuisines": ["North Indian", "Mughlai"],
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/punjabi-tadka.jpg",
+    "offers": [
+      { "title": "20% off on HDFC cards", "description": "Max discount ₹200" },
+      { "title": "Free starters for 4+", "description": "On total bill above ₹1500" }
+    ],
+    "latitude": 12.9716,
+    "longitude": 77.5946
+  },
+  {
+    "restaurantId": "dr_002",
+    "name": "The Butter House",
+    "costForTwo": 1200,
+    "rating": 4.6,
+    "ratingCount": 3800,
+    "distanceKm": 2.3,
+    "cuisines": ["North Indian", "Continental"],
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/butter-house.jpg",
+    "offers": [
+      { "title": "30% off up to ₹300 for 2+", "description": "Via Dineout Pay" }
+    ],
+    "latitude": 12.9784,
+    "longitude": 77.6408
+  },
+  {
+    "restaurantId": "dr_003",
+    "name": "Saffron Restaurant",
+    "costForTwo": 600,
+    "rating": 4.1,
+    "ratingCount": 980,
+    "distanceKm": 0.7,
+    "cuisines": ["North Indian"],
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/saffron.jpg",
+    "offers": [],
+    "latitude": 12.9352,
+    "longitude": 77.6245
+  }
+]

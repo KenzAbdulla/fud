@@ -1,0 +1,17 @@
+{
+  "restaurantId": "dr_001",
+  "name": "Punjabi Tadka",
+  "costForTwo": 800,
+  "rating": 4.3,
+  "ratingCount": 2100,
+  "distanceKm": 1.1,
+  "cuisines": ["North Indian", "Mughlai"],
+  "timings": "12:00 PM - 11:00 PM",
+  "address": "14, Church Street, Bengaluru",
+  "latitude": 12.9716,
+  "longitude": 77.5946,
+  "offers": [
+    { "title": "20% off on HDFC cards" },
+    { "title": "Free starters for 4+" }
+  ]
+}

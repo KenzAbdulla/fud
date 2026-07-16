@@ -1,0 +1,18 @@
+[
+  {
+    "code": "WELCOME50",
+    "description": "50% off up to ₹100 on first order",
+    "discount": 50,
+    "maxDiscount": 100,
+    "paymentMode": "COD",
+    "isApplicable": true
+  },
+  {
+    "code": "SWIGGY30",
+    "description": "30% off up to ₹75",
+    "discount": 30,
+    "maxDiscount": 75,
+    "paymentMode": "ALL",
+    "isApplicable": true
+  }
+]

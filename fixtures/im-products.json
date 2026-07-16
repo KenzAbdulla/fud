@@ -1,0 +1,46 @@
+[
+  {
+    "productId": "p001",
+    "name": "Fresho Paneer",
+    "brand": "Fresho",
+    "packSize": "200g",
+    "price": 80,
+    "mrp": 90,
+    "spinId": "spin_001",
+    "inStock": true,
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/paneer.jpg"
+  },
+  {
+    "productId": "p002",
+    "name": "Amul Paneer",
+    "brand": "Amul",
+    "packSize": "200g",
+    "price": 75,
+    "mrp": 85,
+    "spinId": "spin_002",
+    "inStock": true,
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/amul-paneer.jpg"
+  },
+  {
+    "productId": "p003",
+    "name": "MDH Butter Chicken Masala",
+    "brand": "MDH",
+    "packSize": "100g",
+    "price": 55,
+    "mrp": 60,
+    "spinId": "spin_003",
+    "inStock": true,
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/mdh.jpg"
+  },
+  {
+    "productId": "p004",
+    "name": "Amul Butter",
+    "brand": "Amul",
+    "packSize": "500g",
+    "price": 230,
+    "mrp": 250,
+    "spinId": "spin_004",
+    "inStock": true,
+    "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/amul-butter.jpg"
+  }
+]
